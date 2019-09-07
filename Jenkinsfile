@@ -11,6 +11,7 @@ pipeline {
         stage('stage2') {
           steps {
             build 'My'
+            echo 'hello world'
           }
         }
       }
