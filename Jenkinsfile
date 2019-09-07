@@ -10,7 +10,7 @@ pipeline {
         }
         stage('stage2') {
           steps {
-            build 'Maven_1'
+            build 'My'
           }
         }
       }
